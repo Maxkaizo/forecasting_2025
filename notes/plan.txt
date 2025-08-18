@@ -1,0 +1,27 @@
+Matar varios pájaros de un tiro
+
+- cubrir el requerimiento para el zoomcamp de código facilito
+- posiblemente cubrir el tercer intento de datatalks club 
+- robustecer mi experiencia en prediccion de sereie
+- reforzar mi especialización en ML y ganar puntos en kaggle
+
+
+
+cambio de opinión, voy a usar el dataset de ventas de rolihk de la competición a la que queria entrar, ya que esto se alinea con los objetivos que habia trazado al inicio de año y puedo retomar o revisar lo que habia estudiado de predicción de series de tiempo, lo que habia hecho con prophet y con la investigación qeu habia realizado, también puedo retomar lo que hice en la competencia previa y sumar lo que ahora conozco de mlops, ahora tal vez sin repetirme y complementando con lo que me faltó hacer del proyecto anterior, ojalá pudiera registrar el proyecto en el tercer intento del zoomcamp
+
+
+
+
+https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2/writeups/golden-1st-place-solution
+
+
+https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2/writeups/mr-croissant-2nd-place-solution-recursive-nn-gbdt-#3125140
+
+
+
+https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2
+
+- Repasar curso de series de tiempo
+- repasar lectura de prophet
+
+
