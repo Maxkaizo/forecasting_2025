@@ -1,9 +1,25 @@
+plan actualizado
+
+
+revisitar cursos de kaggle
+revisitar exploración
+revisitar competencia zoomcamp
+usar datos de competencia de rolihk y revisar la solución ganadora
+
+desarrollar proyecto, cubriendo puntos de la rúbrica
+
+
+
+
 Matar varios pájaros de un tiro
 
 - cubrir el requerimiento para el zoomcamp de código facilito
 - posiblemente cubrir el tercer intento de datatalks club 
 - robustecer mi experiencia en prediccion de sereie
 - reforzar mi especialización en ML y ganar puntos en kaggle
+
+revisitar lo que hice en mi participación de la competencia que tuvimos del ML zoomcamp
+
 
 
 
@@ -14,14 +30,57 @@ cambio de opinión, voy a usar el dataset de ventas de rolihk de la competición
 
 https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2/writeups/golden-1st-place-solution
 
-
 https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2/writeups/mr-croissant-2nd-place-solution-recursive-nn-gbdt-#3125140
-
-
 
 https://www.kaggle.com/competitions/rohlik-sales-forecasting-challenge-v2
 
 - Repasar curso de series de tiempo
 - repasar lectura de prophet
+
+Feature Eng
+https://www.kaggle.com/code/patrickurbanke/feature-engineering-for-time-series
+
+
+1. Explorar técnicas de predicción con series de tiempo
+    - Facebook Prophet 
+        - Ver los videos guardados                  # done
+        - Leer el paper de los desarrolladores      # done
+        - Probarlo
+            - Quickstart                            # done
+            - Con datos propios                     # done
+            - con libreta de Rob Mulla
+    - xgBoost
+    - DeepAR (AWS)
+    - Modelos basados en RNN, LSTM o Transformers, que son compatibles con la GPU usando frameworks como TensorFlow o PyTorch.
+
+2. Leer artículos de predicciones con series de tiempo
+
+    - facebook prophet paper                        # done
+        - https://peerj.com/preprints/3190/#
+    - consultora relex                              # done
+        - https://www.relexsolutions.com/resources/machine-learning-in-retail-demand-forecasting/
+    - tesis master granada                          # to do
+        - https://masteres.ugr.es/estadistica-aplicada/sites/master/moea/public/inline-files/TFM_FernAndez%20SalgueroRicardo%20Alonzo.pdf
+    -  Deep Learning Time Series                    # No lo entendí
+        - https://royalsocietypublishing.org/doi/full/10.1098/rsta.2020.0209
+
+
+3. Revisar proyectos de ciencia de datos
+https://cienciadedatos.net/documentos/py37-forecasting-visitas-web-machine-learning
+
+los de ciencia de datos hicieron su libreria de forecast skforecast
+
+https://skforecast.org/0.14.0/
+
+
+A Revisar
+https://facebookresearch.github.io/Kats/
+
+
+Revisados
+https://www.kaggle.com/code/patrickurbanke/feature-engineering-for-time-series
+https://www.relexsolutions.com/resources/machine-learning-in-retail-demand-forecasting/
+https://peerj.com/preprints/3190/#
+https://facebook.github.io/prophet/
 
 
