@@ -1,4 +1,45 @@
 plan actualizado
+En proceso:
+Revisión de notebooks de exploración, primero tomé catboost, pero creo que si es mejor retomar primero el curso de kaggle
+
+
+
+
+
+Ideas de conceptos para proyecto
+
+- montar todo en la nube, en instancias de capa gratuita, que se prendan de manera programada para hacer el entrenamiento y registro
+- usar feature importance, para tener bien claro cuales son las variables predictoras mas fuertes
+- usar timeseries split de sk learn para la validación cruzada
+
+- Utilizar metodolgía CRISP-DM y justificar selección de métrica con base a los objetivos de negocio
+
+
+
+Ligas de referencia, documentación
+
+Catboost:
+    - docs: https://catboost.ai/docs/en/concepts/algorithm-main-stages
+    - Github: https://github.com/catboost/catboost
+    - mlcourse.ai Tutorial: https://www.kaggle.com/code/mitribunskiy/tutorial-catboost-overview
+    - Statquest explanation: https://www.youtube.com/watch?v=KXOTSkPL2X4&ab_channel=StatQuestwithJoshStarmer
+    - yandex explanation: https://www.youtube.com/watch?v=s8Q_orF4tcI&ab_channel=%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81
+
+
+
+
+Pre Plan
+
+🔄 Flujo típico en proyectos con series de tiempo
+Preparar datos (lag features, moving averages, etc.).
+Elegir esquema de validación (expanding window).
+Probar varios algoritmos (ej. CatBoost, XGBoost, ARIMA, Prophet).
+Medir con CV cuál funciona mejor.
+Optimizar hiperparámetros del mejor algoritmo.
+Entrenar modelo final con todo el histórico usando esa configuración.
+Test/hold-out → datos recientes para medir la performance final antes de producción.
+
+
 
 
 revisitar cursos de kaggle
