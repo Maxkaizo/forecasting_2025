@@ -26,7 +26,8 @@ Ideas de conceptos para proyecto
 
 - una parte de la selección de modelos puede estar fundamentada en la explicabilidad
 - implementar feature de volatilidad y factor de confianza en predicciones
-
+- uso de DeterministicProcess de statsmodels
+- aplicar analisis de tendencia, estacionalidad y dependencia serial
 
 
 
