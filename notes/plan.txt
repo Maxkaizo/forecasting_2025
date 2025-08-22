@@ -1,6 +1,13 @@
 plan actualizado
+
+Completado:
+- Revisión de tutorial de catboost
+
+
+
 En proceso:
-Revisión de notebooks de exploración, primero tomé catboost, pero creo que si es mejor retomar primero el curso de kaggle
+- Revisión de tutoriales de KAggle
+
 
 
 
@@ -13,6 +20,14 @@ Ideas de conceptos para proyecto
 - usar timeseries split de sk learn para la validación cruzada
 
 - Utilizar metodolgía CRISP-DM y justificar selección de métrica con base a los objetivos de negocio
+- Validar si el flujo requerirá en algun momento manejo de desbalanceo de clases
+- habilitar early stopping en los procesos de entrenamiento de cada modelo
+- en la parte de Feature Eng, usar lags
+
+- una parte de la selección de modelos puede estar fundamentada en la explicabilidad
+- implementar feature de volatilidad y factor de confianza en predicciones
+
+
 
 
 
