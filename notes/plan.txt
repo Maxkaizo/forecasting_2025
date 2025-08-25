@@ -2,15 +2,10 @@ plan actualizado
 
 Completado:
 - Revisión de tutorial de catboost
-
-
+- Revisión de tutoriales de KAggle 
+- Revisión de documentación de prophet
 
 En proceso:
-- Revisión de tutoriales de KAggle
-
-
-
-
 
 
 Ideas de conceptos para proyecto
@@ -28,8 +23,24 @@ Ideas de conceptos para proyecto
 - implementar feature de volatilidad y factor de confianza en predicciones
 - uso de DeterministicProcess de statsmodels
 - aplicar analisis de tendencia, estacionalidad y dependencia serial
+- Se aplicará una estrategia mixta de forecasting jerárquico: 
+un modelo global para ventas totales, modelos específicos para las principales categorías y productos, 
+y un modelo genérico para el resto de los SKUs. Posteriormente, 
+se implementará reconciliación para garantizar coherencia entre las predicciones en todos los niveles.
 
+🔹 Idea central
 
+Análisis profundo → solo en el nivel global.
+Análisis ligero → en top categorías y top productos (visual, heurístico).
+Sin análisis manual → en el modelo genérico (se resuelve con features).
+Así logras un buen equilibrio entre robustez y tiempo.
+
+✍️ Línea para tu plan de trabajo
+
+Para optimizar el alcance del proyecto, el análisis detallado de tendencia, 
+ciclos y estacionalidad se enfocará en el nivel global de ventas, 
+mientras que en categorías y productos top se aplicará un análisis simplificado apoyado en features de calendario. 
+El resto de los SKUs se modelarán de manera global sin análisis individual.
 
 
 Ligas de referencia, documentación
@@ -41,6 +52,12 @@ Catboost:
     - Statquest explanation: https://www.youtube.com/watch?v=KXOTSkPL2X4&ab_channel=StatQuestwithJoshStarmer
     - yandex explanation: https://www.youtube.com/watch?v=s8Q_orF4tcI&ab_channel=%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81
 
+Tutoriales de Kaggle:
+
+    - https://www.kaggle.com/learn/time-series
+
+Prophet:
+    - https://facebook.github.io/prophet/
 
 
 

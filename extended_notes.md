@@ -139,3 +139,14 @@ Riesgo y confianza en predicciones: incluir medidas de dispersión no solo mejor
 ---
 
 
+Resumen de la estrategia de forecasting jerárquico y mixto
+
+Modelo Global → predice las ventas totales, útil para planeación financiera y logística.
+Top Categorías → modelos específicos para las 3 categorías con mayor impacto en el negocio.
+Top Productos → modelos individuales para los 3 productos más vendidos, donde la precisión es crítica.
+Modelo Genérico (cola larga) → un modelo global para el resto de productos con ventas esporádicas, evitando la complejidad de entrenar modelos individuales.
+
+Reconciliación → se mantiene consistencia entre los diferentes niveles (productos, categorías y total), asegurando que la suma de predicciones cuadre con el forecast global.
+
+---
+![alt text](image-3.png)
