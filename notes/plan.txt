@@ -57,7 +57,15 @@ Tutoriales de Kaggle:
     - https://www.kaggle.com/learn/time-series
 
 Prophet:
-    - https://facebook.github.io/prophet/
+    - docs: https://facebook.github.io/prophet/
+    - gitgub: https://github.com/facebook/prophet
+    - Nicholas Renotte's Retail tutorial: https://youtu.be/KvLG1uTC-KU?si=OREG4VKCzOykiZcg
+    - Aric LaBarr's review: https://youtu.be/2XFro0nIHQM?si=7N7KIImpjwJs0P4R
+    - Rob Mulla's review: https://youtu.be/j0eioK5edqg?si=rXKZlx1LP6_vQ3O4
+
+
+
+
 
 
 
