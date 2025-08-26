@@ -150,3 +150,8 @@ Reconciliación → se mantiene consistencia entre los diferentes niveles (produ
 
 ---
 ![alt text](image-3.png)
+
+
+---
+Remove strange values
+![alt text](image-4.png)

@@ -2,10 +2,16 @@ plan actualizado
 
 Completado:
 - Revisión de tutorial de catboost
-- Revisión de tutoriales de KAggle 
+- Revisión de tutoriales de Kaggle 
 - Revisión de documentación de prophet
+- Revisión de tutoriales de librerias
 
 En proceso:
+
+- revisitar competencia MLzoomcamp
+- usar datos de competencia de rolihk y revisar la solución ganadora
+
+
 
 
 Ideas de conceptos para proyecto
@@ -28,6 +34,9 @@ un modelo global para ventas totales, modelos específicos para las principales 
 y un modelo genérico para el resto de los SKUs. Posteriormente, 
 se implementará reconciliación para garantizar coherencia entre las predicciones en todos los niveles.
 
+- remover valores atipicos
+
+
 🔹 Idea central
 
 Análisis profundo → solo en el nivel global.
@@ -41,6 +50,29 @@ Para optimizar el alcance del proyecto, el análisis detallado de tendencia,
 ciclos y estacionalidad se enfocará en el nivel global de ventas, 
 mientras que en categorías y productos top se aplicará un análisis simplificado apoyado en features de calendario. 
 El resto de los SKUs se modelarán de manera global sin análisis individual.
+
+
+Notas revisión competencia MLZooomcamp
+
+1. Lo que yo hice, fue analizar el dataset desde la perspectiva de negocio, no tuve tanto tiempo, por lo que no hice un EDA tan detallado,
+me faltó sacar los outliers y sacar la estacionalidad, o incluso sumar features predictores.
+Sin embargo usé la libreria CATboost, que usa una estrategia de boosting con arboles de decisión y además maneja las variables categóricas en automático
+
+2. Revisando la mejor libreta al momento, un compañero uso la libreria Autogluon
+Por lo que veo, esta libreria, combina boosting con cross validation, esto es un buen punto para investigar más adelante, 
+pero se sale un poco del alcance de este proyecto y para el cual ya estoy retrasado
+
+3. tal vez podría hacer un envío de una libreta donde combine mi approach, con el uso de autogluon
+
+4. El punto en común de las mejores soluciones fue que usaron solamente features derivados de tiempo y de series,
+es decir, no usaron features de descuento, o de cantidades, o de las categorias de productos, si no que codificaron el id del producto
+y con eso tuvieron mejores resultados, pero si hicieron una remoción de los outliers,
+también identificaron las categorias que si existen en el split de predicción pero no en el de entrenamiento, como desconocidas,
+especificamente el caso de AutoGluon hace esto en automático
+
+5. Algo que aprendí o que REaprendí, es que el uso del label encoding, no necesariamente es malo,
+yo pensaba que el uso generaba un grado de importancia implicito en las categorias, pero al parecer esto afecta solo a algunos algoritmos
+como el de regresión lineal o redes neuronales, pero no para el caso de algoritmos tipo arboles
 
 
 Ligas de referencia, documentación
@@ -63,6 +95,16 @@ Prophet:
     - Aric LaBarr's review: https://youtu.be/2XFro0nIHQM?si=7N7KIImpjwJs0P4R
     - Rob Mulla's review: https://youtu.be/j0eioK5edqg?si=rXKZlx1LP6_vQ3O4
 
+MLzoomcamp Competition:
+    - Overview: https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/overview
+    - My best notebook: https://www.kaggle.com/code/jlmartinezol/catboost-v2?scriptVersionId=221130688
+    - Best notebook (at the moment): https://www.kaggle.com/code/arturgrygorian/automl-top-score
+    - A nicely documented nb: https://www.kaggle.com/code/aletbm/top4-retail-demand-forecast-mlzc-compet-24#Create-my-submission
+
+
+
+Autogluon:
+    - docs: https://auto.gluon.ai/
 
 
 
@@ -82,11 +124,6 @@ Test/hold-out → datos recientes para medir la performance final antes de produ
 
 
 
-
-revisitar cursos de kaggle
-revisitar exploración
-revisitar competencia zoomcamp
-usar datos de competencia de rolihk y revisar la solución ganadora
 
 desarrollar proyecto, cubriendo puntos de la rúbrica
 
