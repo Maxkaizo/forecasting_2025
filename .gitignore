@@ -4,4 +4,6 @@
 *.duckdb
 *.parquet
 Autogluon*
+mlruns*
+mlartifacts*
 
